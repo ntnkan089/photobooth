@@ -25,7 +25,7 @@ const RedirectPage = () => {
 
         // Ensure the session storage is set before redirecting
         setTimeout(() => {
-            window.location.href = "profile";
+            window.location.href = "/profile";
         }, 100); 
     }, [navigate]);
 
